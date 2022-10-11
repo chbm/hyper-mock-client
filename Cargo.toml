@@ -1,0 +1,19 @@
+[package]
+name = "hyper-mock-client"
+version = "0.1.0"
+edition = "2021"
+description = "hyper::client mock to test tower::services such as axum::router"
+repository = "https://github.com/chbm/hyper-mock-client"
+homepage = "https://github.com/chbm/hyper-mock-client"
+readme = "README.md"
+licence = "MIT"
+keywords = ["test", "async", "http", "tokio"]
+categories = ["Asynchronous", "Development tools"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.5"
+tokio = { version = "1.21", features = ["macros"] }
+tokio-test = "0.4.2"
+hyper = { version = "0.14", features = ["client"] }
