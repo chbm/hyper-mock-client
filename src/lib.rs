@@ -1,9 +1,3 @@
-use axum::Router;
-use axum::response::Response;
-use hyper::service::Service;
-use hyper::{Uri, Request, Body};
-
-
 //! # hyper-mock-client
 //!
 //! `hyper-mock-client` is a hyper::client mock to test tower::services such as axum::router
@@ -22,6 +16,11 @@ use hyper::{Uri, Request, Body};
 //!    let resp = client.get("/status").await;
 //!
 //! ```
+
+use axum::Router;
+use axum::response::Response;
+use hyper::service::Service;
+use hyper::{Uri, Request, Body};
 
 
 /// The mock client, instantiate with `new`  

@@ -6,7 +6,7 @@ description = "hyper::client mock to test tower::services such as axum::router"
 repository = "https://github.com/chbm/hyper-mock-client"
 homepage = "https://github.com/chbm/hyper-mock-client"
 readme = "README.md"
-licence = "MIT"
+license = "MIT"
 keywords = ["test", "async", "http", "tokio"]
 categories = ["Asynchronous", "Development tools"]
 
